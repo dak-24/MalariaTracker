@@ -14,5 +14,4 @@ public boolean isHighRisk;
         this.baseRelevance = baseRelevance;
         this.isHighRisk = isHighRisk;
  }
-
-
+}
