@@ -10,5 +10,5 @@ The MalariaTracker Class is the main class, and it contains the bulk of the info
 ## 2. Encapsulation
 I turned the variables in both classes private so that they could be properly encapsulated. Then, I added a setter for baseRelevance so that even if the values changed, the program would automatically evaluate whether or not the value is high risk. For the highRisk variable, I set the boolean value to be true only when baseRelevance is 0.15 or greater.
 
-## 3. Get Setters
-Get setters were added to allow the main class safe access to variables in the Regions and Municipal classes.
+## 3. Getters and Setters
+Getters and setters were added to allow the main class safe access to variables in the Regions and Municipal classes.
