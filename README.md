@@ -7,7 +7,7 @@ Firstly, I separated the main criteria into classes as a more efficient way of s
 The Municipal Class provides an even deeper look into the statistics, allowing you to look further into each region. It is directly linked to the Regions Class, meaning that each municipality is linked to its parent region.
 The MalariaTracker Class is the main class, and it contains the bulk of the information.
 
-## 2. Securing Variables
+## 2. Encapsulation
 I turned the variables in both classes private so that they could be properly encapsulated. Then, I added a setter for baseRelevance so that even if the values changed, the program would automatically evaluate whether or not the value is high risk. For the highRisk variable, I set the boolean value to be true only when baseRelevance is 0.15 or greater.
 
 ## 3. Get Setters
